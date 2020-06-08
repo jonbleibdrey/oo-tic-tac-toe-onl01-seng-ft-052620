@@ -23,6 +23,8 @@ class TicTacToe
   end
     
   def input_to_index(string)
+    @choose = string.to_i
+  end
     
   end
   
