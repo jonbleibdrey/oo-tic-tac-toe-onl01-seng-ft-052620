@@ -26,7 +26,7 @@ class TicTacToe
     @choose = string.to_i-1
   end
     
-  def move
+  def move(input,b = x)
   end
 
   
