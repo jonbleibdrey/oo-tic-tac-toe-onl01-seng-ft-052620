@@ -42,7 +42,9 @@ class TicTacToe
     !position_taken?(input_to_index)  && @board[input_to_index]
   end
   
-  def
+  def turn_count
+    @board[]
+  end
   
 end
 
