@@ -26,7 +26,7 @@ class TicTacToe
     @choose = string.to_i
   end
     
-  end
+
   
 end
 
