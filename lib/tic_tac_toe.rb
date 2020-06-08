@@ -23,7 +23,7 @@ class TicTacToe
   end
     
   def input_to_index(string)
-    @choose = string.to_i
+    @choose = string.to_i-1
   end
     
 
