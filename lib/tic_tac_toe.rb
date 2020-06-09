@@ -56,7 +56,7 @@ class TicTacToe
   
   def turn
     puts"hey user whats your choice?"
-    choice = gets.chomp
+    choice = gets.strip
     position = input_to_index(choice)
     if valid_move?(position)
       move(position,current_player)
