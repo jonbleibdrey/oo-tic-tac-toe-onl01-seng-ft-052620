@@ -67,7 +67,7 @@ class TicTacToe
     else
       turn
     end
-    binding.pry
+    bindin.pry
   end
   
   
