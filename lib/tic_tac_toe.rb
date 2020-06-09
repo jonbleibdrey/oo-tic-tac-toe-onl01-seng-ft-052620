@@ -63,8 +63,8 @@ class TicTacToe
       display_board
     else
       turn
+      binding.pry
     end
-    binding.pry
   end
   
   
