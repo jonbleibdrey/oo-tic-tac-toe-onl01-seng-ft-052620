@@ -47,6 +47,7 @@ class TicTacToe
     @board.each do |i|
       count +=1 if i == "X" || i == "O"
     end
+    count
   end
   
   
