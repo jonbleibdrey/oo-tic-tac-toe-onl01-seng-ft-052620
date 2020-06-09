@@ -1,4 +1,7 @@
+require 'pry'
+
 class TicTacToe
+
   
   def initialize
     @board = Array.new(9, " ")
@@ -65,6 +68,7 @@ class TicTacToe
     else
       turn
     end
+    binding.pry
   end
   
   
