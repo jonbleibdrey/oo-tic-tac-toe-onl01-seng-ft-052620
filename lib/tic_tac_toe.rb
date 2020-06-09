@@ -56,6 +56,7 @@ class TicTacToe
   
   def turn
     choice = gets.chomp!
+    position = input_to_index(choice)
     
 end
   
