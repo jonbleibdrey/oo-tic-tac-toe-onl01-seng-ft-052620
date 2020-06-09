@@ -59,7 +59,7 @@ class TicTacToe
     position = input_to_index(choice)
     if valid_move?(position)
       move(position, player)
-    
+    end
 end
   
   
